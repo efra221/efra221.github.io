@@ -1,0 +1,71 @@
+.subtitulo{
+    color: red ;
+}
+
+.Name{
+    color:blue;
+    margin:  0 px;
+}
+
+.descripcion{
+    color: blueviolet;
+}
+
+.descripcion2{
+    color: yellow;
+}
+.descripcion3{
+    color: rgb(0, 255, 55);
+}
+
+.estudios{
+    color: aqua;
+}
+
+.hobby{
+ color: coral;
+}
+
+#sesion1{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#sesion2{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#sesion3{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 50%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: lightgreen;
+    padding: 20px;
+}
