@@ -1,4 +1,4 @@
-.subtitulo{
+/* .subtitulo{
     color: red ;
 }
 
@@ -68,4 +68,51 @@
 .grid-item{
     background-color: lightgreen;
     padding: 20px;
+} */
+
+
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Imagen de perfil */
+section img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 2px solid #0073e6;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Secciones individuales */
+.item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item h1, .item h2 {
+    color: #0073e6;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
 }
